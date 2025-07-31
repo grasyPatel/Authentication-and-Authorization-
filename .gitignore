@@ -1,0 +1,58 @@
+# Ignore node modules
+node_modules/
+
+# Ignore environment variables
+.env
+.env.test
+
+# Ignore logs
+logs/
+*.log       
+npm-debug.log*
+# Ignore build directories
+dist/
+build/
+.webpack
+
+# Ignore coverage reports
+coverage/   
+# Ignore temporary files
+temp/
+tmp/        
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+# Ignore OS generated files
+.DS_Store
+Thumbs.db   
+# Ignore package lock files
+package-lock.json
+yarn.lock
+# Ignore test files
+test/
+tests/
+*.spec
+
+# Ignore configuration files
+config.json
+settings.json
+# Ignore documentation files
+docs/
+
+# Ignore compiled files
+*.js.map
+# Ignore specific directories
+src/temp/
+src/dist/
+# Ignore specific files
+*.bak
+*.swp
+# Ignore coverage reports
+coverage/       
+# Ignore specific IDE files
+.vscode/
+.idea/
+# Ignore specific log files
+*.log
+npm-debug.log*      
